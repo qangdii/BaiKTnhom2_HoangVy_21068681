@@ -1,0 +1,128 @@
+body{
+    background: #FFF8E3;
+    background-size: cover;
+    background-position-y: -80px;
+    font-size: 16px;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: #A5DD9B;
+    flex-grow: 1;
+    padding: 30px 30px 40px;    
+}
+.form-heading{
+    font-size: 25px;
+    color: #A94438;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #78A083;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    color: #0C0C0C;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #0C0C0C;
+    flex-grow: 1;
+}
+.form-input:placeholder{
+    color: #F5F5F5;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+ 
+.form-submit{
+    background: transparent;
+    border: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid #47A992;
+}
+.form-forgot{
+    background: transparent;
+    border: 1px solid #F5F5F5;
+    text-align: center;
+    color: #F5F5F5;
+    padding: 5px 7px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-signup{
+    background: transparent;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    color: #F5F5F5;
+    transition: 0.25s ease-in-out;
+}
+.group-signup{
+    background: transparent;
+    border: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+/*BÀI 2*/
+.clock{
+    width: 100%;
+    height: fit-content;
+    background-color: #C3ACD0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row ;
+}
+.hours{
+    font-size: 70px;
+}
+
+/*BÀI 3*/
+
+.input_container {
+ display: flex;
+ flex-direction: column;
+ row-gap: 0.5rem;
+}
+
+.input_container label { font-size: 1.6rem; }
+
+.input_container input,textarea {
+ padding: 1rem 2rem;
+ border-radius: 5px;
+ border: 1px solid #0C0C0C;
+ resize: none;
+}
+
+.button {
+ align-self: flex-start;
+ padding: 1rem 2rem;
+ border-radius: 5px;
+ border: none;
+ color: #0C0C0C;
+ cursor: pointer;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Kiểm tra</title>   
+  </head>
+  <body>
+    <div id="wrapper">
+        <form action="" id="form-login">
+            <h1 class="form-heading">Log In</h1>
+          <div class="form-content">
+            Đăng nhập tên và mật khẩu của bạn ngay tại đây!
+          </div>
+            <div class="form-group">
+                <i class="far fa-user"></i>
+                <input type="text" class="form-input" placeholder="Tên đăng nhập">
+            </div>
+            <div class="form-group">
+                <i class="fas fa-key"></i>
+                <input type="password" class="form-input" placeholder="Mật khẩu">
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+            <input type="submit" value="Đăng nhập" class="form-submit">
+          <div class="form-group">
+            <input type="forgot" value="Quên mật khẩu" class="form-forgot">
+            <div class="group-signup">
+              <input type="signup" value="Đăng ký" class="form-signup">
+              <i class="fas fa-solid fa-user-plus"></i>
+            </div>            
+          </div>
+        </form>
+    </div>
+    
+      <div class="clock">
+        <div class="hours">
+            <span id="hour"></span> : <span id="minutes"></span> : <span id="seccond"></span> : <span id="AM"></span>
+        </div>
+    </div>
+    
+     <h1>Đánh giá</h1>
+     <form id="form">
+       <div class="input_container">
+         <label for="name">Họ tên người dùng</label>
+         <input type="text" id="name" name="name" required>
+       </div>
+       <div class="input_container">
+         <label for="message">Nội dung góp ý</label>
+         <textarea id="message" name="message" rows="4" required></textarea>
+       </div>
+       <input class="button" type="button" value="Gửi nội dung" onclick="submit()">
+       <div class="line"></div>
+        <div id="comment-section">
+    </div>
+     </form>
+      
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="script.js"></script>
+</html>
